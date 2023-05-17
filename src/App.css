@@ -1,0 +1,19 @@
+.create-notes-container {
+  display: flex;
+  justify-content: center;
+}
+
+.App h1 {
+  color: #adefd1;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.notes-container {
+  width: 100%;
+  display: grid;
+  padding: 10px;
+  grid-gap: 10px;
+  margin-top: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
